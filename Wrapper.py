@@ -3,6 +3,7 @@ import copy
 import random
 import vertex
 
+# Helper functions
 def generate_next_vertex(vertex_class, player):
     """ Input the vertex class """
     this_vertex = vertex_class.get_vertex()
